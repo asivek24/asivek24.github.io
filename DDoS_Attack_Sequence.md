@@ -1,4 +1,4 @@
-##Sequence of DDoS Attack
+## Sequence of DDoS Attack
 
 ```mermaid
 sequenceDiagram
@@ -22,4 +22,3 @@ participant WebServer
  Firewall->>+WebServer: Forward Requests
  WebServer-->>-Client: Send Response
  ``` 
- 
