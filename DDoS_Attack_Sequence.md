@@ -23,9 +23,9 @@ participant WebServer
  WebServer-->>-Client: Send Response
  ``` 
 
- 1. Attacker installs malware on a large network of devices, enabling the attacker  
+ 1. An attacker installs malware on a large network of devices, enabling the attacker  
  to control the devices remotely and create botnets.  
- 2. The attacker directss the botnet to flood the targeted web server with a large  
+ 2. The attacker directs the botnet to flood the targeted web server with a large  
  amount of traffic.  
  3. The requests reach the firewall, which forwards the requests through to the web server  
  at first.  
@@ -41,3 +41,4 @@ participant WebServer
  13. The webserver is no longer overloaded, so a response is generated and  
  sent to the client.  
  
+
