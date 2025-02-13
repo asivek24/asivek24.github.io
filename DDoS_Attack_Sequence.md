@@ -38,7 +38,9 @@ participant WebServer
  10. The firewall recognizes the botnet as malicious and blocks the IP address.  
  11. The client tries to send another request, which reaches the firewall.  
  12. The firewall allows the request to pass through to the web server.  
- 13. The webserver is no longer overloaded, so a response is generated and  
+ 13. The web server is no longer overloaded, so a response is generated and  
  sent to the client.  
  
+
+
 
