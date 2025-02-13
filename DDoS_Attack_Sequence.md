@@ -34,13 +34,14 @@ participant WebServer
  6. The request hits the firewall, which forwards it to the web server.  
  7. The web server is overloaded, so an error response/timeout message is returned to the client.  
  8. The firewall begins to analyze and filter incoming traffic.  
- 9. The botnet again sends excessive requests, which hit the firewall.  
- 10. The firewall recognizes the botnet as malicious and blocks the IP address.  
+ 9. The botnet continues to send excessive requests, which hit the firewall.  
+ 10. The firewall recognizes the botnet as malicious and blocks the IP addresses.  
  11. The client tries to send another request, which reaches the firewall.  
  12. The firewall allows the request to pass through to the web server.  
  13. The web server is no longer overloaded, so a response is generated and  
  sent to the client.  
  
+
 
 
 
