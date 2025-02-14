@@ -33,16 +33,16 @@ participant WebServer
  5. A request comes in from a client.  
  6. The request hits the firewall, which forwards it to the web server.  
  7. The web server is overloaded, so an error response/timeout message is returned to the client.  
- 8. The firewall begins to analyze and filter incoming traffic.
-        * The firewall is triggered through rate limiting: when there is an excessive number of  
-          requests per pre-determined period of time from IP addresses, it begins to block them.
+ 8. The firewall begins to analyze and filter incoming traffic.  
+    * The firewall is triggered through rate limiting: when there is an excessive number of  
+      requests per pre-determined period of time from IP addresses, it begins to block them.
  9. The botnet continues to send excessive requests, which hit the firewall.  
  10. The firewall recognizes the botnet as malicious and blocks the IP addresses.  
  11. The client tries to send another request, which reaches the firewall.  
  12. The firewall allows the request to pass through to the web server.  
  13. The web server is no longer overloaded, so a response is generated and  
  sent to the client.  
- 
+
 
 
 
